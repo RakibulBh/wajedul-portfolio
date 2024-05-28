@@ -92,7 +92,7 @@ export default function Home() {
     <main className="w-full h-full">
       <section className="bg-gradient-to-br from-red-700 to-black w-full h-screen px-20 pt-20">
         <h1 className="text-5xl text-black">
-          Hello i'm <strong>Wajedul</strong>,
+          Hello i&apos;m <strong>Wajedul</strong>,
         </h1>
         <p className="text-red-400 text-5xl">
           I am a mechanical engineer student at {""}
