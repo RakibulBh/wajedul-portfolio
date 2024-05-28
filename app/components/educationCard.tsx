@@ -18,7 +18,7 @@ export default function EducatonCard({ school }: { school: school }) {
       <h1 className="font-bold text-2xl text-black">{school.qualificaton}</h1>
       <div>
         {school.subjects.map((subject) => (
-          <p>
+          <p key={subject.subject}>
             {subject.subject},{" "}
             <span className="font-bold text-xl text-red-400">
               {subject.grade}

@@ -66,7 +66,7 @@ const Education = () => {
       <h1 className="text-black text-5xl font-bold">Education</h1>
       <div className="mt-20 space-y-10">
         {education.map((school) => (
-          <EducationCard school={school} />
+          <EducationCard key={school.year} school={school} />
         ))}
       </div>
     </section>
